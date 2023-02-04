@@ -1,0 +1,843 @@
+{
+  "bookmark_bar": {
+    "children": [
+      {
+        "children": [
+          {
+            "date_added": "13306383272186583",
+            "date_last_used": "0",
+            "guid": "9d78882f-b63d-4dde-a570-88baeb0a03ad",
+            "id": "84",
+            "name": "33-js-concepts",
+            "type": "url",
+            "url": "https://github.com/leonardomso/33-js-concepts"
+          },
+          {
+            "date_added": "13305346088333263",
+            "date_last_used": "13317998797953623",
+            "guid": "bd401a47-ad17-4382-ab86-81625c3a0ed7",
+            "id": "76",
+            "name": "The Modern JavaScript Tutorial",
+            "type": "url",
+            "url": "https://javascript.info/"
+          },
+          {
+            "date_added": "13313219332886959",
+            "date_last_used": "0",
+            "guid": "30b90695-0767-4a83-a760-46df537fe991",
+            "id": "129",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "JavaScript execution context — from compiling to execution (part 1) | by Carson | Medium",
+            "type": "url",
+            "url": "https://cabulous.medium.com/javascript-execution-context-part-1-from-compiling-to-execution-84c11c0660f5#:~:text=A%20variable%20assignment%20is%20actually,the%20rest%20of%20the%20codes."
+          },
+          {
+            "date_added": "13314332528520650",
+            "date_last_used": "0",
+            "guid": "c274fa33-799e-4b5d-9a8e-386d5038304c",
+            "id": "139",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "regex101",
+            "type": "url",
+            "url": "https://regex101.com/"
+          },
+          {
+            "date_added": "13316082701950822",
+            "date_last_used": "0",
+            "guid": "18c86a4a-82bc-4b6b-b1b5-b6a3534b504a",
+            "id": "175",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "TypeScript + React: Component patterns",
+            "type": "url",
+            "url": "https://fettblog.eu/typescript-react-component-patterns/"
+          },
+          {
+            "date_added": "13316584189445528",
+            "date_last_used": "0",
+            "guid": "35f1f047-7aa3-4d4c-9aaa-5a81590ab51a",
+            "id": "178",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "js-quesiton",
+            "type": "url",
+            "url": "https://github.com/lydiahallie/javascript-questions"
+          },
+          {
+            "date_added": "13316660912624473",
+            "date_last_used": "0",
+            "guid": "861975a4-f302-4d67-b1aa-553496d98a3c",
+            "id": "180",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "You_Dont_Know_JS",
+            "type": "url",
+            "url": "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md"
+          }
+        ],
+        "date_added": "13312789994293437",
+        "date_last_used": "0",
+        "date_modified": "13316865149260822",
+        "guid": "9b9b4a8a-789f-4ca7-933b-dfa0a1179e24",
+        "id": "116",
+        "name": "JS",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13286269644128910",
+            "date_last_used": "0",
+            "guid": "06231e05-91e0-408e-80ca-a31f8156d33e",
+            "id": "29",
+            "name": "[ Grid_Tricks ]",
+            "type": "url",
+            "url": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+          },
+          {
+            "date_added": "13286269673380508",
+            "date_last_used": "0",
+            "guid": "b1c110b2-ba8f-4c93-96c1-238bbc3a9457",
+            "id": "30",
+            "name": "[Basic Concepts of grid layout]",
+            "type": "url",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout"
+          },
+          {
+            "date_added": "13290677269092035",
+            "date_last_used": "0",
+            "guid": "e713afc7-2510-478e-8c96-9c368434f957",
+            "id": "31",
+            "name": "CodePen",
+            "type": "url",
+            "url": "https://codepen.io/"
+          },
+          {
+            "date_added": "13291203546983668",
+            "date_last_used": "0",
+            "guid": "07fe0755-aa9e-462e-9c88-8e347a09d29c",
+            "id": "32",
+            "name": "Neumorphism",
+            "type": "url",
+            "url": "https://neumorphism.io/#e0e0e0"
+          },
+          {
+            "date_added": "13302261601055356",
+            "date_last_used": "0",
+            "guid": "357085b5-9d3f-437f-953f-90484125ee39",
+            "id": "66",
+            "name": "Material Design Icons",
+            "type": "url",
+            "url": "https://pictogrammers.github.io/@mdi/font/6.9.96/"
+          },
+          {
+            "date_added": "13310460445027548",
+            "date_last_used": "0",
+            "guid": "392256fa-f1cc-4a88-9526-f26805e2fcec",
+            "id": "112",
+            "name": "[icon_src] Heroicons",
+            "type": "url",
+            "url": "https://heroicons.com/"
+          },
+          {
+            "date_added": "13312790569023197",
+            "date_last_used": "0",
+            "guid": "3ee575d7-c8d5-421b-9c78-329edadb3c4b",
+            "id": "119",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "[icon]_Flation",
+            "type": "url",
+            "url": "https://www.flaticon.com/search?type=icon&word=javascript&license=&color=&shape=&current_section=&author_id=&pack_id=&family_id=&style_id=&choice=&type="
+          },
+          {
+            "date_added": "13314430997454643",
+            "date_last_used": "0",
+            "guid": "9a83c644-50be-4806-860c-08b971452766",
+            "id": "140",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "The 25 Best Data Visualizations ",
+            "type": "url",
+            "url": "https://visme.co/blog/best-data-visualizations/"
+          },
+          {
+            "date_added": "13315414744018046",
+            "date_last_used": "0",
+            "guid": "867c004c-3227-4d20-bd72-c4e92af5e209",
+            "id": "145",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Awwwards",
+            "type": "url",
+            "url": "https://www.awwwards.com/"
+          },
+          {
+            "date_added": "13315414774256611",
+            "date_last_used": "0",
+            "guid": "2ca91779-4484-4cde-bf73-ce6960865804",
+            "id": "146",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "AIArtists.org",
+            "type": "url",
+            "url": "https://aiartists.org/generative-art-design"
+          },
+          {
+            "date_added": "13315414818675441",
+            "date_last_used": "0",
+            "guid": "4b13ce0a-ac4f-4c0f-a4bc-d03c3709c2db",
+            "id": "147",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Shadertoy BETA",
+            "type": "url",
+            "url": "https://www.shadertoy.com/"
+          },
+          {
+            "date_added": "13315414831233921",
+            "date_last_used": "0",
+            "guid": "5322fcd5-efa6-4148-a214-61b4837194b7",
+            "id": "148",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "AIArtist",
+            "type": "url",
+            "url": "https://aiartists.org/"
+          },
+          {
+            "date_added": "13317717603575849",
+            "date_last_used": "0",
+            "guid": "16c16db1-bcf7-4709-8521-8e9e21ae97a0",
+            "id": "192",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "UX Navigate",
+            "type": "url",
+            "url": "https://www.uxnavigate.com/website?fbclid=IwAR0_N_8D9qJTzjtBnqviBBzPKbscvtzJKQeugQmxVZMrxADCOk_1cKEOwNA"
+          }
+        ],
+        "date_added": "13286269635720917",
+        "date_last_used": "0",
+        "date_modified": "13317969133612136",
+        "guid": "8102a29f-0d93-4775-88fb-1bc4986a5029",
+        "id": "28",
+        "name": "CSS",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13317200311727580",
+            "date_last_used": "0",
+            "guid": "4120d1c7-fcf7-4576-926e-fdb8b9dbe209",
+            "id": "184",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Week 1 C - CS50x 2023",
+            "type": "url",
+            "url": "https://cs50.harvard.edu/x/2023/weeks/1/"
+          },
+          {
+            "date_added": "13315544290032675",
+            "date_last_used": "0",
+            "guid": "c6657746-b6b3-4536-a5a9-96adf53c9e82",
+            "id": "152",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "visualgo",
+            "type": "url",
+            "url": "https://visualgo.net/en"
+          }
+        ],
+        "date_added": "13317200332606522",
+        "date_last_used": "0",
+        "date_modified": "13317357080703024",
+        "guid": "5252b338-ef36-4685-a5ab-ec0d07674500",
+        "id": "185",
+        "name": "CS",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13315978874084405",
+            "date_last_used": "0",
+            "guid": "c6815b32-cab2-4141-8d9d-7a3c03a5359a",
+            "id": "167",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Sorting Algorithms Animations",
+            "type": "url",
+            "url": "https://www.toptal.com/developers/sorting-algorithms"
+          },
+          {
+            "date_added": "13316865149260822",
+            "date_last_used": "13317915087276332",
+            "guid": "6a6a5478-d5c6-4fbe-8072-cab2e3657127",
+            "id": "182",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "[ LeetCode ] - Study Plan",
+            "type": "url",
+            "url": "https://leetcode.com/study-plan/algorithm/?progress=xlx4493s"
+          },
+          {
+            "date_added": "13317357080703024",
+            "date_last_used": "0",
+            "guid": "86460287-e30b-4887-9162-11cbc7cc081a",
+            "id": "187",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "[ Data Structure ] - Kalkicode",
+            "type": "url",
+            "url": "https://kalkicode.com/data-structure/array"
+          }
+        ],
+        "date_added": "13312790184073015",
+        "date_last_used": "0",
+        "date_modified": "13317357166027996",
+        "guid": "d149ea28-daf0-4d62-b6db-f05b76a992be",
+        "id": "118",
+        "name": "DataStructure&Algorithm",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13306777190329970",
+            "date_last_used": "0",
+            "guid": "7142e1f8-98ad-4b70-b2aa-822b68325af1",
+            "id": "93",
+            "name": "[OOP] Tutorial 1: Classes and Instances ",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&ab_channel=CoreySchafer"
+          },
+          {
+            "date_added": "13306775305748781",
+            "date_last_used": "0",
+            "guid": "5cccd1d8-df64-4da7-ae90-fb4e0d8748b2",
+            "id": "92",
+            "name": "500lines",
+            "type": "url",
+            "url": "https://github.com/aosabook/500lines"
+          },
+          {
+            "date_added": "13314757167821550",
+            "date_last_used": "0",
+            "guid": "37e9ac73-9df6-4536-996a-d17e299724a7",
+            "id": "142",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "[python] zoom",
+            "type": "url",
+            "url": "https://us06web.zoom.us/j/85311588902?pwd=UHBpa0xRRnV5dlBOSjYzTEJJMXZiUT09#success"
+          },
+          {
+            "date_added": "13317481645554716",
+            "date_last_used": "0",
+            "guid": "3317a43f-69ce-4e42-831f-d8a6603eadf1",
+            "id": "189",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": " [ ChatGPT ] to learn Python ",
+            "type": "url",
+            "url": "https://softnshare.com/learn-python-with-chatgpt/?fbclid=IwAR1tqrt7o9fOoVJAJPuHingAJDAKLjaOfxFtPLlVgVDNb0DGEXffxFQrLJM"
+          }
+        ],
+        "date_added": "13312790087382813",
+        "date_last_used": "0",
+        "date_modified": "13317553010126814",
+        "guid": "74baeb49-2dc9-405c-ac6a-80412bed054b",
+        "id": "117",
+        "name": "Python",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13303359723765391",
+            "date_last_used": "0",
+            "guid": "a73c7ee1-3784-463e-8367-1bdafdd44b53",
+            "id": "68",
+            "name": "Luke Peavey - CodeSandbox",
+            "type": "url",
+            "url": "https://codesandbox.io/u/lukePeavey"
+          },
+          {
+            "date_added": "13306514357024363",
+            "date_last_used": "0",
+            "guid": "bdfc44d5-7b95-4a04-80f6-bb1b4fb2f625",
+            "id": "86",
+            "name": "React components composition: how to get it right",
+            "type": "url",
+            "url": "https://www.developerway.com/posts/components-composition-how-to-get-it-right"
+          },
+          {
+            "date_added": "13312863301692832",
+            "date_last_used": "0",
+            "guid": "5aa8dcfd-553c-4552-b2e0-7a5cc0c08d57",
+            "id": "120",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "useHooks",
+            "type": "url",
+            "url": "https://usehooks.com/"
+          },
+          {
+            "date_added": "13313820409258713",
+            "date_last_used": "0",
+            "guid": "89e9c4ad-bc52-45c0-8082-7338b44cc601",
+            "id": "136",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "React_DOC",
+            "type": "url",
+            "url": "https://beta.reactjs.org/apis/react"
+          },
+          {
+            "date_added": "13314180577532168",
+            "date_last_used": "0",
+            "guid": "71329dc1-2dd3-4a49-b3d8-7616b9106544",
+            "id": "138",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "(3) 10 Design Patterns Explained in 10 Minutes - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=tv-_1er1mWI&ab_channel=Fireship"
+          },
+          {
+            "date_added": "13314436700587535",
+            "date_last_used": "0",
+            "guid": "fd2ab2f9-5076-46d8-a2d6-374769a5b93f",
+            "id": "141",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "React State Management ",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=-bEzt5ISACA&list=WL&index=51&ab_channel=freeCodeCamp.org"
+          },
+          {
+            "date_added": "13317436330703915",
+            "date_last_used": "0",
+            "guid": "0760baa0-c623-4222-a5a9-d2a20066fac3",
+            "id": "188",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "[ demo ] data-flow",
+            "type": "url",
+            "url": "https://thxjser.github.io/thx_event_center_demo/?fbclid=IwAR2F39CNhp_IqJ1QbrG3ImN733Rc6yxtWovBVaw-f0OvI1CqG2u-CjlxztA"
+          }
+        ],
+        "date_added": "13295517820248852",
+        "date_last_used": "0",
+        "date_modified": "13317481645554716",
+        "guid": "a1b44858-c9e4-4973-a3bd-ee8f6e9b340e",
+        "id": "43",
+        "name": "React",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13295517848165754",
+            "date_last_used": "0",
+            "guid": "4ff2b9d5-226b-45d2-a907-11f3f8d87737",
+            "id": "42",
+            "name": "寫給新人的資料庫入門指南. 此文是《10周入門資料分析》系列的第7篇。 | by 數據分析那些事 | 數據分析不是個事 | Medium",
+            "type": "url",
+            "url": "https://medium.com/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E4%B8%8D%E6%98%AF%E5%80%8B%E4%BA%8B/%E5%AF%AB%E7%B5%A6%E6%96%B0%E4%BA%BA%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97-4a63fb3acb8a"
+          },
+          {
+            "date_added": "13315545292201521",
+            "date_last_used": "0",
+            "guid": "b55ead24-ca65-4452-a10e-865bcadf2ed7",
+            "id": "153",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Neo4j Graph Data Platform",
+            "type": "url",
+            "url": "https://neo4j.com/"
+          }
+        ],
+        "date_added": "13295517844407537",
+        "date_last_used": "0",
+        "date_modified": "13315958625820770",
+        "guid": "0a60248b-7d8f-45e1-a11f-be3015cbaa1c",
+        "id": "41",
+        "name": "DataBase",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13315958779849361",
+            "date_last_used": "0",
+            "guid": "2aa5b27c-000a-4a0e-8850-f1503900ef07",
+            "id": "156",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Epic Web Dev Articles",
+            "type": "url",
+            "url": "https://www.epicweb.dev/articles"
+          },
+          {
+            "date_added": "13315959027608361",
+            "date_last_used": "0",
+            "guid": "3ee801ad-c260-42e9-8a3b-88d876fc2a7c",
+            "id": "158",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Entropy Wins - A blog on Software Architecture, Design and Craftsmanship",
+            "type": "url",
+            "url": "https://www.entropywins.wtf/blog/"
+          },
+          {
+            "date_added": "13315959070119583",
+            "date_last_used": "0",
+            "guid": "7470936f-6960-46ca-b17a-fb8a8105ec23",
+            "id": "159",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Patterns",
+            "type": "url",
+            "url": "https://www.patterns.dev/posts/"
+          },
+          {
+            "date_added": "13315959110370294",
+            "date_last_used": "0",
+            "guid": "df0b704c-acfa-4180-bf4c-f40f28d6d6fe",
+            "id": "160",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "軟體工程師的修煉與成長",
+            "type": "url",
+            "url": "https://vgod.medium.com/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E4%BF%AE%E7%85%89%E8%88%87%E6%88%90%E9%95%B7-5-1-1%E8%A9%B2%E8%AB%87%E4%BB%80%E9%BA%BC%E6%89%8D%E8%83%BD%E8%AE%93%E8%81%B7%E6%B6%AF%E8%B5%B7%E9%A3%9B-eaa10f2df56e"
+          },
+          {
+            "date_added": "13315959126125453",
+            "date_last_used": "0",
+            "guid": "fabe2d21-2040-45fa-aa43-c7239e11d4ad",
+            "id": "161",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": " \"What happens when you type google.com into your browser and press enter?\"",
+            "type": "url",
+            "url": "https://github.com/alex/what-happens-when"
+          },
+          {
+            "date_added": "13315959486250676",
+            "date_last_used": "0",
+            "guid": "d6692164-b391-4a1f-91ba-3e509cb1e574",
+            "id": "162",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Overreacted — A blog by Dan Abramov",
+            "type": "url",
+            "url": "https://overreacted.io/"
+          },
+          {
+            "date_added": "13315959495050706",
+            "date_last_used": "0",
+            "guid": "c6532345-9345-43e3-af19-f3de8972e2d8",
+            "id": "163",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "You-Dont-Know-JS",
+            "type": "url",
+            "url": "https://github.com/getify/You-Dont-Know-JS"
+          },
+          {
+            "date_added": "13315959505630342",
+            "date_last_used": "0",
+            "guid": "43665e21-108a-41a0-9fed-926123d83a33",
+            "id": "164",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Functional-Light-JS",
+            "type": "url",
+            "url": "https://github.com/getify/Functional-Light-JS"
+          },
+          {
+            "date_added": "13315960968748991",
+            "date_last_used": "0",
+            "guid": "5080dffb-d3e9-43ba-8ce7-e5c30b153d40",
+            "id": "165",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Software Engineering at Google",
+            "type": "url",
+            "url": "https://abseil.io/resources/swe-book/html/toc.html"
+          },
+          {
+            "date_added": "13316082520268060",
+            "date_last_used": "0",
+            "guid": "7418bf59-a418-4f92-adf7-1bd01c003bcb",
+            "id": "174",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "DEV Community 👩‍💻👨‍💻",
+            "type": "url",
+            "url": "https://dev.to/"
+          }
+        ],
+        "date_added": "13315958810387786",
+        "date_last_used": "0",
+        "date_modified": "13316082701950822",
+        "guid": "3cd32c07-65a4-484d-8740-e3a7f0052801",
+        "id": "157",
+        "name": "tech_Article",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13313565202004222",
+            "date_last_used": "0",
+            "guid": "2d4d1aad-b992-419d-96eb-cb258e0566e5",
+            "id": "131",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "台灣百岳座標一覽表",
+            "type": "url",
+            "url": "https://blog.xuite.net/shaoweiwu088/immovables/589411922#"
+          },
+          {
+            "date_added": "13313565242987870",
+            "date_last_used": "0",
+            "guid": "53038380-f4a0-4c16-8b15-b0a3b86b5b9b",
+            "id": "133",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "小百岳軌跡檔一覽表",
+            "type": "url",
+            "url": "https://hiking.biji.co/index.php?q=review&act=info&review_id=2082"
+          },
+          {
+            "date_added": "13313603691000495",
+            "date_last_used": "0",
+            "guid": "a001c3f5-5497-494b-9032-7c81b68e6f57",
+            "id": "134",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "台灣登山地圖 ",
+            "type": "url",
+            "url": "https://www.google.com/maps/d/u/0/embed?mid=1fJpYGyn14V-PyF_tATxTZonf-Gk&hl=zh-TW&ll=23.438830404494684%2C120.90872096725738&z=10"
+          }
+        ],
+        "date_added": "13313565239623072",
+        "date_last_used": "0",
+        "date_modified": "13313652750960380",
+        "guid": "03661f00-b7c1-4b6b-b172-dc8887ae433b",
+        "id": "132",
+        "name": "mountain",
+        "type": "folder"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13312975390191242",
+            "date_last_used": "0",
+            "guid": "ed305021-2d96-4e84-83b8-afd3caf0876a",
+            "id": "127",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "Webpack 前端打包工具",
+            "type": "url",
+            "url": "https://awdr74100.github.io/2020-03-09-webpack-urlloader-fileloader/"
+          },
+          {
+            "date_added": "13317553010126814",
+            "date_last_used": "0",
+            "guid": "cd173052-01d8-4a4f-b4ad-5a745d00bfcb",
+            "id": "190",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "npm semantic version calculator",
+            "type": "url",
+            "url": "https://semver.npmjs.com/"
+          }
+        ],
+        "date_added": "13312975365747436",
+        "date_last_used": "0",
+        "date_modified": "13317717603575849",
+        "guid": "5ef7b591-b639-4796-af56-b0cf9edf5cec",
+        "id": "126",
+        "name": "webpack",
+        "type": "folder"
+      },
+      {
+        "date_added": "13315484793173777",
+        "date_last_used": "13317999148152968",
+        "guid": "38107d00-e8b8-43bd-97de-5241d7ddb6f8",
+        "id": "150",
+        "meta_info": {
+          "power_bookmark_meta": ""
+        },
+        "name": "Replit",
+        "type": "url",
+        "url": "https://replit.com/@RenbSie"
+      },
+      {
+        "date_added": "13315958625820770",
+        "date_last_used": "13317892442770659",
+        "guid": "ad4edcfd-0c0f-46c3-8d6a-bba9bf9d0c80",
+        "id": "155",
+        "meta_info": {
+          "power_bookmark_meta": ""
+        },
+        "name": "[explainthis] 軟體工程面試與筆記",
+        "type": "url",
+        "url": "https://www.explainthis.io/zh-hant"
+      },
+      {
+        "date_added": "13305346081627459",
+        "date_last_used": "0",
+        "guid": "ee6d1bf4-4fbb-4cf0-b330-11fdbe8acd4f",
+        "id": "75",
+        "name": "web.dev",
+        "type": "url",
+        "url": "https://web.dev/"
+      },
+      {
+        "date_added": "13313652750960380",
+        "date_last_used": "13317959027023695",
+        "guid": "74ea4d7f-490b-4464-8cb6-2226fb853eda",
+        "id": "135",
+        "meta_info": {
+          "power_bookmark_meta": ""
+        },
+        "name": "udemy",
+        "type": "url",
+        "url": "https://www.udemy.com/home/my-courses/lists/"
+      },
+      {
+        "date_added": "13312955302244572",
+        "date_last_used": "0",
+        "guid": "04483a2b-4769-492e-a96a-385ed86da68c",
+        "id": "123",
+        "meta_info": {
+          "power_bookmark_meta": ""
+        },
+        "name": "npm trends",
+        "type": "url",
+        "url": "https://npmtrends.com/"
+      },
+      {
+        "date_added": "13316077012907445",
+        "date_last_used": "13317790589976860",
+        "guid": "f528fdf2-4d55-4113-ab05-e5dd7941c01f",
+        "id": "169",
+        "meta_info": {
+          "power_bookmark_meta": ""
+        },
+        "name": "ChatGPT",
+        "type": "url",
+        "url": "https://chat.openai.com/chat"
+      },
+      {
+        "children": [
+          {
+            "date_added": "13317969133612136",
+            "date_last_used": "0",
+            "guid": "e2c7d68f-d613-4573-ab57-95f2767c53a3",
+            "id": "194",
+            "meta_info": {
+              "power_bookmark_meta": ""
+            },
+            "name": "lucid_diagram",
+            "type": "url",
+            "url": "https://lucid.app/documents#/dashboard"
+          }
+        ],
+        "date_added": "13317969171564255",
+        "date_last_used": "0",
+        "date_modified": "13317969171564413",
+        "guid": "1b3af9b7-fe56-4adc-9ed2-2edbc8759fef",
+        "id": "195",
+        "name": "tool",
+        "type": "folder"
+      }
+    ],
+    "date_added": "13292948666339072",
+    "date_last_used": "0",
+    "date_modified": "13317436330703915",
+    "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+    "id": "1",
+    "name": "Bookmarks Bar",
+    "type": "folder"
+  },
+  "other": {
+    "children": [
+      {
+        "children": [
+          {
+            "date_added": "13305956303883095",
+            "date_last_used": "0",
+            "guid": "09f7d0df-1056-4cb4-81b8-a3dabdea91fd",
+            "id": "80",
+            "name": "Adeel Imran - CodeSandbox",
+            "type": "url",
+            "url": "https://codesandbox.io/u/adeelibr"
+          }
+        ],
+        "date_added": "13305346019923478",
+        "date_last_used": "0",
+        "date_modified": "13312790184073180",
+        "guid": "cac80b49-b061-45c6-bdf7-3a2417e7c0f4",
+        "id": "74",
+        "name": "Ls",
+        "type": "folder"
+      }
+    ],
+    "date_added": "13292948666339074",
+    "date_last_used": "0",
+    "date_modified": "13317210167017113",
+    "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+    "id": "2",
+    "name": "Other Bookmarks",
+    "type": "folder"
+  }
+}
