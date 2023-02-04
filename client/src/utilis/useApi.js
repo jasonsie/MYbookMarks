@@ -28,3 +28,5 @@ export async function deleteBookMark(data) {
     .then((res) => console.log(res))
     .catch((err) => console.log(err));
 }
+
+console.log(`ok`);
