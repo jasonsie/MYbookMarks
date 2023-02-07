@@ -8,7 +8,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://mybookmarksfront.vercel.app/',
   }),
 );
 app.use(morgan('combined'));
