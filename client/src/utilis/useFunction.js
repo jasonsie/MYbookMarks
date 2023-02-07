@@ -24,18 +24,14 @@ function setEdit(editItem = {}) {
   };
 }
 
-// function setAdd(addItem = {}) {
-//   return (data = []) => {
-//     let updateRows = [];
-//     data.unshift(addItem);
-//     // updateRows = [...data, { ...addItem, id: data?.length }];
-//     console.log(`data`, data);
-//     return { data };
-//   };
-// }
+function setCtgAsArray(bookMarks = []) {
+  return bookMarks.map((each) => {
+    return { ...each, ctg: [each.ctg] };
+  });
+}
 
 module.exports = {
   setDel: setDel,
   setEdit: setEdit,
-  // setAdd: setAdd,
+  setCtgAsArray: setCtgAsArray,
 };

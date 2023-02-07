@@ -7,9 +7,11 @@ const useFetch = () => {
 
   const bookmarksToSideBar = (bookmarks) => {
     let sideBar = [];
-    for (let item of bookmarks) {
-      const isRe = sideBar.find((each) => each?.name === item.ctg);
-      if (!isRe) sideBar.push({ id: item.ctgId, name: item.ctg });
+    for (let bookMark of bookmarks) {
+      for (let str of bookMark?.ctg) {
+        const isRe = sideBar.some((each) => each?.name === str);
+        !isRe && sideBar.push({ id: bookMark.ctgId, name: str });
+      }
     }
 
     return { sideBar, bookmarks };

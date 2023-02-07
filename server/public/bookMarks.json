@@ -5,415 +5,433 @@
       "name": "33-js-concepts",
       "type": "url",
       "url": "https://github.com/leonardomso/33-js-concepts",
-      "ctg": "JS"
+      "desc": "The repository '33-js-concepts' on GitHub provides a list of 33 important concepts in JavaScript language that developers should understand to effectively use the language. It includes topics such as hoisting, closure, prototypal inheritance, async programming, and more. The repository provides concise explanations, examples, and links to further reading for each concept.",
+      "note": "Spare some time to read it",
+      "ctg": ["JS"]
     },
     {
       "id": "76",
       "name": "The Modern JavaScript Tutorial",
       "type": "url",
       "url": "https://javascript.info/",
-      "ctg": "JS"
+      "desc": "'javascript.info' is a comprehensive website dedicated to teaching JavaScript language to developers of all levels. It covers a wide range of topics, from the basics of JavaScript syntax to advanced topics such as closures, prototypes, and async programming. The website features interactive examples, quizzes, and other resources to help users learn and retain the concepts. It is aimed at providing a thorough and up-to-date guide to the JavaScript language.",
+      "note": "Where to fortify your JS skills",
+      "ctg": ["JS"]
     },
     {
       "id": "129",
       "name": "JavaScript execution context — from compiling to execution (part 1) | by Carson | Medium",
       "type": "url",
       "url": "https://cabulous.medium.com/javascript-execution-context-part-1-from-compiling-to-execution-84c11c0660f5#:~:text=A%20variable%20assignment%20is%20actually,the%20rest%20of%20the%20codes.",
-      "ctg": "JS"
+      "desc": "The article 'JavaScript Execution Context Part 1: From Compiling to Execution' explains the process of how JavaScript code is executed by the browser or engine. It starts with the creation of an execution context, which includes the compilation of code and the creation of the global object, among other things. Then, the article explains the steps that happen during the execution phase, including hoisting and the declaration of variables and functions. The article concludes by emphasizing that understanding the execution context is crucial for writing effective and efficient JavaScript code.",
+      "note": "How js Works in deep",
+      "ctg": ["JS"]
     },
-    { "id": "139", "name": "regex101", "type": "url", "url": "https://regex101.com/", "ctg": "JS" },
+    {
+      "id": "139",
+      "name": "regex101",
+      "type": "url",
+      "url": "https://regex101.com/",
+      "desc": "Regex101 is an online platform for working with regular expressions (regex). It provides a comprehensive interface for writing, testing, and debugging regex patterns, which can be used for text parsing, pattern matching, and data extraction. Features of Regex101 include a regex editor, a live preview of matched text, syntax highlighting, and detailed explanations of each step in the match process. It supports many different regex flavors, including PCRE, Python, and JavaScript. The site is free to use and has a supportive community of users who can offer advice and assistance with complex regex problems.",
+      "note": "In this era, we could use chatGPT to substitute this Regex test",
+      "ctg": ["JS"]
+    },
     {
       "id": "175",
       "name": "TypeScript + React: Component patterns",
       "type": "url",
       "url": "https://fettblog.eu/typescript-react-component-patterns/",
-      "ctg": "JS"
+      "ctg": ["JS"]
     },
     {
       "id": "178",
       "name": "js-quesiton",
       "type": "url",
       "url": "https://github.com/lydiahallie/javascript-questions",
-      "ctg": "JS"
+      "ctg": ["JS"]
     },
     {
       "id": "180",
       "name": "You_Dont_Know_JS",
       "type": "url",
       "url": "https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/README.md",
-      "ctg": "JS"
+      "ctg": ["JS"]
     },
     {
       "id": "29",
       "name": "[ Grid_Tricks ]",
       "type": "url",
       "url": "https://css-tricks.com/snippets/css/complete-guide-grid/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "30",
       "name": "[Basic Concepts of grid layout]",
       "type": "url",
       "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
-    { "id": "31", "name": "CodePen", "type": "url", "url": "https://codepen.io/", "ctg": "CSS" },
+    { "id": "31", "name": "CodePen", "type": "url", "url": "https://codepen.io/", "ctg": ["CSS"] },
     {
       "id": "32",
       "name": "Neumorphism",
       "type": "url",
       "url": "https://neumorphism.io/#e0e0e0",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "66",
       "name": "Material Design Icons",
       "type": "url",
       "url": "https://pictogrammers.github.io/@mdi/font/6.9.96/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "112",
       "name": "[icon_src] Heroicons",
       "type": "url",
       "url": "https://heroicons.com/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "119",
       "name": "[icon]_Flation",
       "type": "url",
       "url": "https://www.flaticon.com/search?type=icon&word=javascript&license=&color=&shape=&current_section=&author_id=&pack_id=&family_id=&style_id=&choice=&type=",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "140",
       "name": "The 25 Best Data Visualizations ",
       "type": "url",
       "url": "https://visme.co/blog/best-data-visualizations/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "145",
       "name": "Awwwards",
       "type": "url",
       "url": "https://www.awwwards.com/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "146",
       "name": "AIArtists.org",
       "type": "url",
       "url": "https://aiartists.org/generative-art-design",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "147",
       "name": "Shadertoy BETA",
       "type": "url",
       "url": "https://www.shadertoy.com/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "148",
       "name": "AIArtist",
       "type": "url",
       "url": "https://aiartists.org/",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "192",
       "name": "UX Navigate",
       "type": "url",
       "url": "https://www.uxnavigate.com/website?fbclid=IwAR0_N_8D9qJTzjtBnqviBBzPKbscvtzJKQeugQmxVZMrxADCOk_1cKEOwNA",
-      "ctg": "CSS"
+      "ctg": ["CSS"]
     },
     {
       "id": "184",
       "name": "Week 1 C - CS50x 2023",
       "type": "url",
       "url": "https://cs50.harvard.edu/x/2023/weeks/1/",
-      "ctg": "CS"
+      "desc": "CS50 is a computer science course offered by Harvard University through edX.org. The URL you provided is the link to Week 1 of the course for the year 2023. CS50 is an introduction to computer science that covers a wide range of topics, including algorithms, programming, web development, and data structures. The course is designed to be accessible to both experienced and inexperienced programmers and aims to provide students with a strong foundation in computer science. The course material consists of video lectures, problem sets, and interactive elements that allow students to practice and apply their knowledge. The course is well-regarded and has a large following, both online and on campus at Harvard.",
+      "note": "Spare some time to learn it",
+      "ctg": ["CS"]
     },
     {
       "id": "152",
       "name": "visualgo",
       "type": "url",
       "url": "https://visualgo.net/en",
-      "ctg": "CS"
+      "desc": "Visualize algorithm",
+      "note": "When learning some algorithm, you can use the graph to graps the basic issue",
+      "ctg": ["CS"]
     },
     {
       "id": "167",
       "name": "Sorting Algorithms Animations",
       "type": "url",
       "url": "https://www.toptal.com/developers/sorting-algorithms",
-      "ctg": "DataStructure&Algorithm"
+      "ctg": ["DataStructure&Algorithm"]
     },
     {
       "id": "182",
       "name": "[ LeetCode ] - Study Plan",
       "type": "url",
       "url": "https://leetcode.com/study-plan/algorithm/?progress=xlx4493s",
-      "ctg": "DataStructure&Algorithm"
+      "ctg": ["DataStructure&Algorithm"]
     },
     {
       "id": "187",
       "name": "[ Data Structure ] - Kalkicode",
       "type": "url",
       "url": "https://kalkicode.com/data-structure/array",
-      "ctg": "DataStructure&Algorithm"
+      "ctg": ["DataStructure&Algorithm"]
     },
     {
       "id": "93",
       "name": "[OOP] Tutorial 1: Classes and Instances ",
       "type": "url",
       "url": "https://www.youtube.com/watch?v=ZDa-Z5JzLYM&ab_channel=CoreySchafer",
-      "ctg": "Python"
+      "ctg": ["Python"]
     },
     {
       "id": "92",
       "name": "500lines",
       "type": "url",
       "url": "https://github.com/aosabook/500lines",
-      "ctg": "Python"
+      "ctg": ["Python"]
     },
     {
       "id": "142",
       "name": "[python] zoom",
       "type": "url",
       "url": "https://us06web.zoom.us/j/85311588902?pwd=UHBpa0xRRnV5dlBOSjYzTEJJMXZiUT09#success",
-      "ctg": "Python"
+      "ctg": ["Python"]
     },
     {
       "id": "189",
       "name": " [ ChatGPT ] to learn Python ",
       "type": "url",
       "url": "https://softnshare.com/learn-python-with-chatgpt/?fbclid=IwAR1tqrt7o9fOoVJAJPuHingAJDAKLjaOfxFtPLlVgVDNb0DGEXffxFQrLJM",
-      "ctg": "Python"
+      "ctg": ["Python"]
     },
     {
       "id": "68",
       "name": "Luke Peavey - CodeSandbox",
       "type": "url",
       "url": "https://codesandbox.io/u/lukePeavey",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "86",
       "name": "React components composition: how to get it right",
       "type": "url",
       "url": "https://www.developerway.com/posts/components-composition-how-to-get-it-right",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "120",
       "name": "useHooks",
       "type": "url",
       "url": "https://usehooks.com/",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "136",
       "name": "React_DOC",
       "type": "url",
       "url": "https://beta.reactjs.org/apis/react",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "138",
       "name": "(3) 10 Design Patterns Explained in 10 Minutes - YouTube",
       "type": "url",
       "url": "https://www.youtube.com/watch?v=tv-_1er1mWI&ab_channel=Fireship",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "141",
       "name": "React State Management ",
       "type": "url",
       "url": "https://www.youtube.com/watch?v=-bEzt5ISACA&list=WL&index=51&ab_channel=freeCodeCamp.org",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "188",
       "name": "[ demo ] data-flow",
       "type": "url",
       "url": "https://thxjser.github.io/thx_event_center_demo/?fbclid=IwAR2F39CNhp_IqJ1QbrG3ImN733Rc6yxtWovBVaw-f0OvI1CqG2u-CjlxztA",
-      "ctg": "React"
+      "ctg": ["React"]
     },
     {
       "id": "42",
       "name": "寫給新人的資料庫入門指南. 此文是《10周入門資料分析》系列的第7篇。 | by 數據分析那些事 | 數據分析不是個事 | Medium",
       "type": "url",
       "url": "https://medium.com/%E6%95%B8%E6%93%9A%E5%88%86%E6%9E%90%E4%B8%8D%E6%98%AF%E5%80%8B%E4%BA%8B/%E5%AF%AB%E7%B5%A6%E6%96%B0%E4%BA%BA%E7%9A%84%E8%B3%87%E6%96%99%E5%BA%AB%E5%85%A5%E9%96%80%E6%8C%87%E5%8D%97-4a63fb3acb8a",
-      "ctg": "DataBase"
+      "ctg": ["DataBase"]
     },
     {
       "id": "153",
       "name": "Neo4j Graph Data Platform",
       "type": "url",
       "url": "https://neo4j.com/",
-      "ctg": "DataBase"
+      "ctg": ["DataBase"]
     },
     {
       "id": "156",
       "name": "Epic Web Dev Articles",
       "type": "url",
       "url": "https://www.epicweb.dev/articles",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "158",
       "name": "Entropy Wins - A blog on Software Architecture, Design and Craftsmanship",
       "type": "url",
       "url": "https://www.entropywins.wtf/blog/",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "159",
       "name": "Patterns",
       "type": "url",
       "url": "https://www.patterns.dev/posts/",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "160",
       "name": "軟體工程師的修煉與成長",
       "type": "url",
       "url": "https://vgod.medium.com/%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E7%9A%84%E4%BF%AE%E7%85%89%E8%88%87%E6%88%90%E9%95%B7-5-1-1%E8%A9%B2%E8%AB%87%E4%BB%80%E9%BA%BC%E6%89%8D%E8%83%BD%E8%AE%93%E8%81%B7%E6%B6%AF%E8%B5%B7%E9%A3%9B-eaa10f2df56e",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "161",
       "name": " \"What happens when you type google.com into your browser and press enter?\"",
       "type": "url",
       "url": "https://github.com/alex/what-happens-when",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "162",
       "name": "Overreacted — A blog by Dan Abramov",
       "type": "url",
       "url": "https://overreacted.io/",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "163",
       "name": "You-Dont-Know-JS",
       "type": "url",
       "url": "https://github.com/getify/You-Dont-Know-JS",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "164",
       "name": "Functional-Light-JS",
       "type": "url",
       "url": "https://github.com/getify/Functional-Light-JS",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "165",
       "name": "Software Engineering at Google",
       "type": "url",
       "url": "https://abseil.io/resources/swe-book/html/toc.html",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "174",
       "name": "DEV Community 👩‍💻👨‍💻",
       "type": "url",
       "url": "https://dev.to/",
-      "ctg": "tech_Article"
+      "ctg": ["tech_Article"]
     },
     {
       "id": "131",
       "name": "台灣百岳座標一覽表",
       "type": "url",
       "url": "https://blog.xuite.net/shaoweiwu088/immovables/589411922#",
-      "ctg": "mountain"
+      "ctg": ["mountain"]
     },
     {
       "id": "133",
       "name": "小百岳軌跡檔一覽表",
       "type": "url",
       "url": "https://hiking.biji.co/index.php?q=review&act=info&review_id=2082",
-      "ctg": "mountain"
+      "ctg": ["mountain"]
     },
     {
       "id": "134",
       "name": "台灣登山地圖 ",
       "type": "url",
       "url": "https://www.google.com/maps/d/u/0/embed?mid=1fJpYGyn14V-PyF_tATxTZonf-Gk&hl=zh-TW&ll=23.438830404494684%2C120.90872096725738&z=10",
-      "ctg": "mountain"
+      "ctg": ["mountain"]
     },
     {
       "id": "127",
       "name": "Webpack 前端打包工具",
       "type": "url",
       "url": "https://awdr74100.github.io/2020-03-09-webpack-urlloader-fileloader/",
-      "ctg": "webpack"
+      "ctg": ["webpack"]
     },
     {
       "id": "190",
       "name": "npm semantic version calculator",
       "type": "url",
       "url": "https://semver.npmjs.com/",
-      "ctg": "webpack"
+      "ctg": ["webpack"]
     },
     {
       "id": "150",
       "name": "Replit",
       "type": "url",
       "url": "https://replit.com/@RenbSie",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "155",
       "name": "[explainthis] 軟體工程面試與筆記",
       "type": "url",
       "url": "https://www.explainthis.io/zh-hant",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "75",
       "name": "web.dev",
       "type": "url",
       "url": "https://web.dev/",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "135",
       "name": "udemy",
       "type": "url",
       "url": "https://www.udemy.com/home/my-courses/lists/",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "123",
       "name": "npm trends",
       "type": "url",
       "url": "https://npmtrends.com/",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "169",
       "name": "ChatGPT",
       "type": "url",
       "url": "https://chat.openai.com/chat",
-      "ctg": "Bookmarks Bar"
+      "ctg": ["Bookmarks Bar"]
     },
     {
       "id": "194",
       "name": "lucid_diagram",
       "type": "url",
       "url": "https://lucid.app/documents#/dashboard",
-      "ctg": "tool"
+      "ctg": ["tool"]
     },
     {
       "id": "80",
       "name": "Adeel Imran - CodeSandbox",
       "type": "url",
       "url": "https://codesandbox.io/u/adeelibr",
-      "ctg": "Ls"
+      "ctg": ["Ls"]
     }
   ]
 }

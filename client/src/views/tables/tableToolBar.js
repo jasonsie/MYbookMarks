@@ -37,7 +37,17 @@ export default function EnhancedTableToolbar(props) {
           {numSelected} 已選取
         </Typography>
       ) : (
-        <Typography sx={{ flex: '1 1 100%' }} variant="h6" id="tableTitle" component="div">
+        <Typography
+          sx={{
+            flex: '1 1 100%',
+            fontSize: ' 1.5rem',
+            fontWeight: 'bold',
+            letterSpacing: '0.1em',
+          }}
+          variant="h6"
+          id="tableTitle"
+          component="div"
+        >
           網路資源
         </Typography>
       )}

@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, forwardRef, useImperativeHandle } from 'react';
 import {
   Box,
   Paper,
@@ -50,9 +50,29 @@ const cellStyle = {
     textOverflow: 'ellipsis',
     borderStyle: 'border-box',
   },
+  chip: {
+    margin: ' 1px',
+  },
+  link: {
+    color: 'black',
+    textDecoration: 'none',
+    fontWeight: 'bold',
+    letterSpacing: '0.1em',
+    fontSize: ' 1rem',
+  },
+  title: {
+    // fontSize: ' 1.2rem',
+    // fontWeight: 'bold',
+    // letterSpacing: '0.5em',
+  },
+  text: {
+    fontSize: ' 0.9rem',
+    letterSpacing: '0.1em',
+    lineHeight: '1.8',
+  },
 };
 
-const Main = (props) => {
+const Main = forwardRef((props, ref) => {
   const { rows: rowsData, sideBar } = props;
   const dispatch = useSrcDispatch();
   const [rows, setRows] = useState(rowsData);
@@ -60,7 +80,8 @@ const Main = (props) => {
   const [actionType, setActionType] = useState('');
   const dialogueRef = useRef(null);
 
-  function handleTables(row) {
+  function handleTables(e, row) {
+    if (e.target.href) return;
     const isSelected = selectedLs.some((each) => each.id === row.id);
     isSelected
       ? setSelectedLs((pre) => pre.filter((each) => each.id !== row.id))
@@ -91,6 +112,7 @@ const Main = (props) => {
         case 'edit':
           return (editItem = {}) => {
             let { updateRows } = setEdit(editItem)(rows);
+            console.log(`editItem`, editItem);
             // api
             editBookMark(editItem);
             // context
@@ -104,20 +126,6 @@ const Main = (props) => {
           };
         case 'add':
           return (addItem = {}) => {
-            // let updateRows = [];
-            // if (addItem?.id) {
-            //   updateRows = rows.map((each) => {
-            //     if (each.id === addItem?.id) {
-            //       return { ...each, ...addItem };
-            //     }
-            //     return each;
-            //   });
-            // } else {
-            //   let newId = rows.length;
-            //   updateRows = [...rows, { ...addItem, id: newId }];
-            // }
-            // let { updateRows } = setAdd(addItem)(rows);
-
             // api
             const resPromise = createBookMark(addItem);
             resPromise
@@ -130,7 +138,6 @@ const Main = (props) => {
                 });
               })
               .catch((err) => console.log(err));
-
             // screen : back to the init
             setSelectedLs([]);
             setActionType('');
@@ -144,6 +151,18 @@ const Main = (props) => {
   useEffect(() => {
     setRows(rowsData);
   }, [rowsData]);
+
+  useImperativeHandle(
+    ref,
+    () => {
+      return {
+        init() {
+          setSelectedLs([]);
+        },
+      };
+    },
+    [],
+  );
 
   return (
     <>
@@ -163,7 +182,11 @@ const Main = (props) => {
                 />
               </TableCell>
               {titles.map((each) => (
-                <TableCell align="left" sx={cellStyle[each.style]} key={each.id}>
+                <TableCell
+                  align="left"
+                  sx={{ ...cellStyle[each.style], ...cellStyle['title'] }}
+                  key={each.id}
+                >
                   {each.name}
                 </TableCell>
               ))}
@@ -171,12 +194,8 @@ const Main = (props) => {
           </TableHead>
           <TableBody>
             {rows.map((row) => (
-              <TableRow key={row.id} hover>
-                <TableCell
-                  padding="checkbox"
-                  sx={cellStyle['small']}
-                  onClick={() => handleTables(row)}
-                >
+              <TableRow key={row.id} hover onClick={(e) => handleTables(e, row)}>
+                <TableCell padding="checkbox" sx={cellStyle['small']}>
                   <Checkbox
                     color="primary"
                     checked={selectedLs.some((each) => each.id === row.id)}
@@ -189,17 +208,27 @@ const Main = (props) => {
                       width="18"
                       src={`http://www.google.com/s2/favicons?domain=${row.url}`}
                     />
-                    <Link href={row.url}>{row.name}</Link>
+                    <Link href={row.url} sx={cellStyle['link']} target="_blank">
+                      {row.name}
+                    </Link>
                   </Box>
                 </TableCell>
-                <TableCell align="left" sx={cellStyle['large']}>
+                <TableCell align="left" sx={{ ...cellStyle['large'], ...cellStyle['text'] }}>
                   <EditableInput row={{ ...row, display: 'desc' }} />
                 </TableCell>
-                <TableCell align="left" sx={cellStyle['medium']}>
+                <TableCell align="left" sx={{ ...cellStyle['medium'], ...cellStyle['text'] }}>
                   <EditableInput row={{ ...row, display: 'note' }} />
                 </TableCell>
                 <TableCell align="left" sx={cellStyle['small']}>
-                  <Chip size="small" label={row.ctg} color="info" />
+                  {row?.ctg.map((each) => (
+                    <Chip
+                      size="medium"
+                      label={each}
+                      color="info"
+                      key={each}
+                      sx={cellStyle['chip']}
+                    />
+                  ))}
                 </TableCell>
               </TableRow>
             ))}
@@ -215,6 +244,6 @@ const Main = (props) => {
       />
     </>
   );
-};
+});
 
 export default Main;

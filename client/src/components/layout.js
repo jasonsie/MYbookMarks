@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { useParams } from 'react-router-dom';
 import { Box, CssBaseline } from '@mui/material';
 import SideDrawer from './drawer';
@@ -10,24 +10,17 @@ const Layout = () => {
   const { sideBar, bookmarks, currentSideBar } = useSrcContext();
   const [selectedBookmarks, setSelectedBookmarks] = useState([]);
   const { category } = useParams();
+  const tableRef = useRef();
 
   useEffect(() => {
     if (bookmarks[0] === undefined) return;
     if (category) {
-      setSelectedBookmarks(bookmarks.filter((each) => each.ctg === category));
+      setSelectedBookmarks(bookmarks.filter((each) => each.ctg.some((each) => each === category)));
     } else {
       setSelectedBookmarks(bookmarks);
     }
+    tableRef.current.init();
   }, [bookmarks, category]);
-
-  // useEffect(() => {
-  //   if (JSON.stringify(bookmarks) === '{}') return;
-  //   if (JSON.stringify(currentSideBar) === '{}') {
-  //     setSelectedBookmarks(bookmarks);
-  //   } else {
-  //     setSelectedBookmarks(bookmarks.filter((each) => each.ctg === currentSideBar.name));
-  //   }
-  // }, [currentSideBar]);
 
   return (
     <>
@@ -40,7 +33,7 @@ const Layout = () => {
           component="main"
           sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
         >
-          <Main rows={selectedBookmarks} sideBar={sideBar} />
+          <Main rows={selectedBookmarks} sideBar={sideBar} ref={tableRef} />
         </Box>
       </Box>
     </>

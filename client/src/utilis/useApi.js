@@ -29,4 +29,11 @@ export async function deleteBookMark(data) {
     .catch((err) => console.log(err));
 }
 
-console.log(`ok`);
+export async function askAI(data) {
+  return await axios
+    .post(`${API_URL}/askAI`, { question: data })
+    .then((res) => {
+      return { status: res?.status, data: res?.data.result };
+    })
+    .catch((err) => console.log(err));
+}

@@ -18,7 +18,7 @@ export const initialRow = {
   url: '',
   desc: '',
   note: '',
-  tag: '',
+  ctg: [],
 };
 
 export const drawerWidth = 240;

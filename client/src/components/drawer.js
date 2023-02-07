@@ -8,9 +8,34 @@ import {
   ListItem,
   Drawer,
   Divider,
+  Box,
 } from '@mui/material';
 import { drawerWidth } from '../server/static';
 import { useSrcDispatch } from '../context/tableContext';
+
+const style = {
+  drawer: {
+    display: { xs: 'none', sm: 'block' },
+    '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
+  },
+  flexContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'flex-end',
+  },
+  title: {
+    fontSize: ' 1.2rem',
+    fontWeight: 'bold',
+    letterSpacing: '0.2em',
+  },
+  sideBarText: {
+    maxWidth: '100%',
+    textTransform: 'uppercase',
+    fontSize: ' 0.9rem',
+    letterSpacing: '0.1em',
+    textAlign: 'right',
+  },
+};
 
 export default function SideDrawer(props) {
   const { sideBar } = props;
@@ -26,7 +51,6 @@ export default function SideDrawer(props) {
   // };
 
   function setCurrent(data) {
-    // setListItem(data);
     dispatch({ type: 'setCurrent', current: data });
   }
 
@@ -36,40 +60,30 @@ export default function SideDrawer(props) {
 
   return (
     <>
-      <Drawer
-        variant="permanent"
-        sx={{
-          display: { xs: 'none', sm: 'block' },
-          '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
-        }}
-        open
-      >
-        <div>
+      <Drawer variant="permanent" sx={style['drawer']} open>
+        <Box sx={style['flexContainer']}>
           <Link to="/">
-            <Toolbar>Web Development Resources</Toolbar>
+            <Toolbar sx={style['title']}>WEB. TAG</Toolbar>
           </Link>
           <Divider />
           <List>
             {sideBar.map((each, index) => (
-              <Link to={`/${each?.name}`}>
-                <ListItem key={each.id} disablePadding onClick={() => setCurrent(each)}>
-                  <ListItemButton selected={each.name?.toLowerCase() === params?.toLowerCase()}>
-                    <ListItemText primary={each.name} />
+              <Link to={`/${each?.name}`} key={index}>
+                <ListItem disablePadding onClick={() => setCurrent(each)}>
+                  <ListItemButton selected={each?.name.toLowerCase() === params?.toLowerCase()}>
+                    <ListItemText
+                      primary={each.name}
+                      // disableTypography
+                      style={style['sideBarText']}
+                    />
                   </ListItemButton>
                 </ListItem>
               </Link>
             ))}
           </List>
           <Divider />
-        </div>
+        </Box>
       </Drawer>
     </>
   );
 }
-
-// non - router version :
-//<ListItem key={each.id} disablePadding onClick={() => setCurrent(each)}>
-//  <ListItemButton selected={each.name?.toLowerCase() === listItem?.name?.toLowerCase()}>
-//      <ListItemText primary={each.name} />
-//   </ListItemButton>
-//</ListItem>
