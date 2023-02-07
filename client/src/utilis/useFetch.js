@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
-const API_URL = process.env.REACT_APP_URL;
+import { fetchBookmarks } from './useApi';
 
 const useFetch = () => {
   const [bookmarks, setBookmarks] = useState([]);
   const [sideBar, setSideBar] = useState([]);
 
-  const bookmarksToSideBar = (bookmarks) => {
+  function bookmarksToSideBar(bookmarks) {
     let sideBar = [];
     for (let bookMark of bookmarks) {
       for (let str of bookMark?.ctg) {
@@ -15,15 +15,16 @@ const useFetch = () => {
     }
 
     return { sideBar, bookmarks };
-  };
+  }
 
   /*
     1. fetching all the data
     2. also generating the sideabar data 
   */
   useEffect(() => {
-    fetch(`${API_URL}/bookMarks`)
-      .then((res) => res.json())
+    const res = fetchBookmarks();
+    res
+      .then((res) => res.data)
       .then((res) => bookmarksToSideBar(res))
       .then(({ sideBar, bookmarks }) => {
         setSideBar(sideBar);
