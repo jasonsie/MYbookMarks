@@ -6,11 +6,8 @@ const morgan = require('morgan');
 const api = require('./routes/api');
 const app = express();
 
-app.use(
-  cors({
-    origin: 'https://mybookmarksfront.vercel.app/',
-  }),
-);
+//{origin: 'https://mybookmarksfront.vercel.app/'}
+app.use(cors({ origin: '*' }));
 app.use(morgan('combined'));
 
 app.use(express.json());
