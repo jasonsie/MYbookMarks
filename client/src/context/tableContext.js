@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
 import useFetch from '../utilis/useFetch';
-import { setDel, setEdit, setAdd } from '../utilis/useFunction';
+import { setDel, setEdit } from '../utilis/useFunction';
 
 const SrcContext = createContext(null);
 const SrcDispatchContext = createContext(null);

@@ -1,5 +1,5 @@
 // Delete : the comparison of the two array
-function setDel(delArr) {
+export function setDel(delArr) {
   return (data) => {
     let updateData = [];
     updateData = data.filter((item) => {
@@ -9,7 +9,7 @@ function setDel(delArr) {
   };
 }
 
-function setEdit(editItem = {}) {
+export function setEdit(editItem = {}) {
   return (data = []) => {
     let updateRows = [];
     if (editItem?.id) {
@@ -24,14 +24,8 @@ function setEdit(editItem = {}) {
   };
 }
 
-function setCtgAsArray(bookMarks = []) {
+export function setCtgAsArray(bookMarks = []) {
   return bookMarks.map((each) => {
     return { ...each, ctg: [each.ctg] };
   });
 }
-
-module.exports = {
-  setDel: setDel,
-  setEdit: setEdit,
-  setCtgAsArray: setCtgAsArray,
-};
