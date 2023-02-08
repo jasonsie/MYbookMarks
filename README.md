@@ -6,11 +6,11 @@
 
 ### a.2 Features
 
-#### Routing system to categorize bookmarks
-
-#### Add, create and edit the bookmarks
-
-#### Auto-completed title and introdunction of the bookmarks, based on the URL (asking openAI for completition)
+|     |                                                                                                            |
+| --- | ---------------------------------------------------------------------------------------------------------- |
+| 1   | Routing system to categorize bookmarks                                                                     |
+| 2   | Add, create and edit the bookmarks                                                                         |
+| 3   | Auto-completed title and introdunction of the bookmarks, based on the URL (asking openAI for completition) |
 
 ### a.3 [DEMO](https://mybookmarksfront.vercel.app/)
 
