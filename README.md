@@ -1,16 +1,16 @@
 # A. Introduction
 
-### a.1 ENV
+![image](illus.gif)
 
-#### React + Node.js + MUI
+### a.1 ENV : React + Node.js + MUI
 
 ### a.2 Features
 
-|     |                                                                                                            |
-| --- | ---------------------------------------------------------------------------------------------------------- |
-| 1   | Routing system to categorize bookmarks                                                                     |
-| 2   | Add, create and edit the bookmarks                                                                         |
-| 3   | Auto-completed title and introdunction of the bookmarks, based on the URL (asking openAI for completition) |
+| I   | Features                                     |
+| --- | -------------------------------------------- |
+| 1   | Routing system to categorize bookmarks       |
+| 2   | Add, create and edit the bookmarks           |
+| 3   | Calling AI to fill the title and description |
 
 ### a.3 [DEMO](https://mybookmarksfront.vercel.app/)
 
@@ -18,12 +18,14 @@
 
 ### Front :
 
-#### dev : `yarn` -> `yarn start`
-
-#### build : `yarn build` & revise your `.env`, changing `REACT_APP_URL` to your server domain
+| I     | SOP                                                                          |
+| ----- | ---------------------------------------------------------------------------- |
+| dev   | `yarn` -> `yarn start`                                                       |
+| build | `yarn build` & revise `.env`, changing `REACT_APP_URL` to your server domain |
 
 ### Back :
 
-#### dev : `yarn` -> `yarn watch`
-
-#### build : revise your `.env`, changing `OPENAI_API_KEY` & `MONGO_URL` to your server domain
+| I     | SOP                                                                               |
+| ----- | --------------------------------------------------------------------------------- |
+| dev   | `yarn` -> `yarn watch`                                                            |
+| build | revise your `.env`, changing `OPENAI_API_KEY` & `MONGO_URL` to your server domain |
