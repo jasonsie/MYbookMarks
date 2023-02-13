@@ -45,20 +45,16 @@ const DialogueRow = forwardRef((props, ref) => {
 
   async function handleBatch() {
     setBatch(!batch);
-
     try {
-      const AIResponse = await askAI(row?.url);
-      await AIResponse.then((res) => {
-        const { status, data } = res;
-        if (status === 200) {
-          const title = data?.result.match(/Title:(.*)/);
-          const summary = data?.result.match(/Summary:(.*)/)[1];
-          setRow((pre) => {
-            return { ...pre, name: title[1] ?? pre.name, desc: summary ?? pre.desc };
-          });
-          setBatch(false);
-        }
-      });
+      const { status, data } = await askAI(row?.url);
+      if (status === 200) {
+        const title = data?.result.match(/Title:(.*)/);
+        const summary = data?.result.match(/Summary:(.*)/)[1];
+        await setRow((pre) => {
+          return { ...pre, name: title[1] ?? pre.name, desc: summary ?? pre.desc };
+        });
+        await setBatch(false);
+      }
     } catch (err) {
       const { response, message } = err;
       handleClickVariant('error')(message);
