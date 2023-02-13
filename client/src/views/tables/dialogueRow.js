@@ -29,7 +29,7 @@ const style = {
 };
 
 const DialogueRow = forwardRef((props, ref) => {
-  const { data, sideBar, action, actionType } = props;
+  const { data, sideBar, action, actionType, isSelected } = props;
   const [row, setRow] = useState(initialRow);
   const [open, setOpen] = useState(false);
   const [batch, setBatch] = useState(false);
@@ -80,8 +80,12 @@ const DialogueRow = forwardRef((props, ref) => {
   );
 
   useEffect(() => {
-    setRow(data);
-  }, [data]);
+    if (open) {
+      setRow(data);
+    } else {
+      setRow(initialRow);
+    }
+  }, [open]);
 
   return (
     <Dialog open={open} onClose={() => setOpen(!open)} fullWidth={true} maxWidth="sm">

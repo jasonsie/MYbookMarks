@@ -241,6 +241,7 @@ const Main = forwardRef((props, ref) => {
         ref={dialogueRef}
         action={handleAct}
         actionType={actionType}
+        isSelected={selectedLs[0] === undefined ? false : true}
       />
     </>
   );
