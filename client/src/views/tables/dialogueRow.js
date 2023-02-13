@@ -17,6 +17,7 @@ import {
 import SmartToyIcon from '@mui/icons-material/SmartToy';
 import { initialRow } from '../../server/static';
 import { askAI } from '../../utilis/useApi';
+import { useSnack } from '../../hooks/useSnack';
 const filter = createFilterOptions();
 
 const style = {
@@ -33,6 +34,7 @@ const DialogueRow = forwardRef((props, ref) => {
   const [row, setRow] = useState(initialRow);
   const [open, setOpen] = useState(false);
   const [batch, setBatch] = useState(false);
+  const { handleClickVariant } = useSnack();
   // const [sideBar, setSideBar] = useState([]);
 
   function handleChange(e, type) {
@@ -43,18 +45,24 @@ const DialogueRow = forwardRef((props, ref) => {
 
   async function handleBatch() {
     setBatch(!batch);
-    const { data: AISays, status } = await askAI(row?.url);
+
     try {
-      if (status === 200) {
-        const title = AISays.match(/Title:(.*)/);
-        const summary = AISays.match(/Summary:(.*)/)[1];
-        setRow((pre) => {
-          return { ...pre, name: title[1] ?? pre.name, desc: summary ?? pre.desc };
-        });
-        setBatch(false);
-      }
+      const AIResponse = await askAI(row?.url);
+      await AIResponse.then((res) => {
+        const { status, data } = res;
+        if (status === 200) {
+          const title = data?.result.match(/Title:(.*)/);
+          const summary = data?.result.match(/Summary:(.*)/)[1];
+          setRow((pre) => {
+            return { ...pre, name: title[1] ?? pre.name, desc: summary ?? pre.desc };
+          });
+          setBatch(false);
+        }
+      });
     } catch (err) {
-      console.log(err);
+      const { response, message } = err;
+      handleClickVariant('error')(message);
+      setBatch(false);
     }
   }
 

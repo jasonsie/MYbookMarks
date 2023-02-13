@@ -1,4 +1,3 @@
-import React from 'react';
 import { useSnackbar } from 'notistack';
 
 export const useSnack = () => {

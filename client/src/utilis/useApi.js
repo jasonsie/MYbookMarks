@@ -1,4 +1,5 @@
 import axios from 'axios';
+
 const API_URL = process.env.REACT_APP_URL;
 
 export async function fetchBookmarks() {
@@ -32,11 +33,11 @@ export async function deleteBookMark(data) {
     .catch((err) => console.log(err));
 }
 
-export async function askAI(data) {
-  return await axios
-    .post(`${API_URL}askAI`, { question: data })
-    .then((res) => {
-      return { status: res?.status, data: res?.data.result };
-    })
-    .catch((err) => console.log(err));
+export async function askAI(input) {
+  return await axios.post(`${API_URL}askAI`, { question: input });
+  // .catch((err) => {
+  //   const { status, data: res } = err?.response;
+  //   console.log(`satus & data`, status, res['error']['message']);
+  //   setData({ status: status, data: res['error']['message'] });
+  // });
 }

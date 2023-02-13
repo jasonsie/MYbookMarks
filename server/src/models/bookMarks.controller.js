@@ -74,8 +74,6 @@ function deleteBookMark(req, res) {
 }
 
 async function askAI(req, res) {
-  console.log(`req in api`, req.body.question);
-
   const configuration = new Configuration({
     apiKey: process.env.OPENAI_API_KEY,
   });
