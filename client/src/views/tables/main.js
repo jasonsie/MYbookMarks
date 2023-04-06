@@ -192,6 +192,7 @@ const Main = forwardRef((props, ref) => {
               ))}
             </TableRow>
           </TableHead>
+          {console.log(Object.keys(rows).length !== 0)}
           <TableBody>
             {rows.map((row) => (
               <TableRow key={row.id} hover onClick={(e) => handleTables(e, row)}>
